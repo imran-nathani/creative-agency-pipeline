@@ -1,0 +1,31 @@
+campaign_id: "summer-2024-promo"
+products:
+  - id: "product-001"
+    name: "Organic Shampoo"
+    description: "Natural hair care with botanical extracts"
+    hero_image: "assets/shampoo-hero.png"  # Optional
+  - id: "product-002"
+    name: "Moisturizing Conditioner"
+    description: "Deep conditioning treatment"
+    # No hero_image → will generate
+
+target_market:
+    region: "North America"
+    language: "en-US"
+
+# target_market:
+#   region: "Latin America"
+#   language: "es"
+
+# target_market:
+#   region: "Asia-Pacific"
+#   language: "ja"
+  
+target_audience: "Health-conscious millennials aged 25-40"
+
+campaign_message: "Discover Nature's Secret to Beautiful Hair"
+
+brand_elements:
+  logo: "assets/logo.png"
+  primary_color: "#EB6440"
+  font: "Montserrat"
