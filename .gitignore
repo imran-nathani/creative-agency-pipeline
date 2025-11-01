@@ -27,6 +27,7 @@ wheels/
 .env
 !.env.example
 .venv
+venv/
 
 # IDE
 .vscode/
@@ -36,7 +37,6 @@ wheels/
 *~
 
 # Output
-campaign/*/output/
 *.log
 
 # OS

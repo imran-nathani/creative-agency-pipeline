@@ -1,0 +1,63 @@
+campaign_id: summer-2024-promo
+timestamp: C:\Users\EIS3\Documents\creative-agency-pipeline
+phase_2_features:
+  content_moderation: enabled
+  localization:
+    enabled: false
+    target_language: en-US
+    original_message: Discover Nature's Secret to Beautiful Hair
+    localized_message: null
+  brand_compliance: enabled
+products:
+- product_id: product-001
+  product_name: Organic Shampoo
+  source: existing
+  prompt_used: null
+  compliance:
+    overall_passed: false
+    overall_score: 50.0
+    checks:
+      color_presence:
+        passed: false
+        score: 50.0
+        message: 'Brand color #EB6440 not prominently featured'
+        details:
+          brand_color: '#EB6440'
+  variants:
+  - aspect_ratio: square
+    file_path: campaign\AcmeShampoo\output\product-001\square\campaign_post.png
+  - aspect_ratio: story
+    file_path: campaign\AcmeShampoo\output\product-001\story\campaign_post.png
+  - aspect_ratio: landscape
+    file_path: campaign\AcmeShampoo\output\product-001\landscape\campaign_post.png
+- product_id: product-002
+  product_name: Moisturizing Conditioner
+  source: generated
+  prompt_used: 'Professional product photography of Moisturizing Conditioner. Product
+    details: Deep conditioning treatment. Style: Clean, modern, appealing to Health-conscious
+    millennials aged 25-40. High quality, well-lit, studio setting. Incorporate #EB6440
+    color accent. Commercial photography, 4K quality.'
+  compliance:
+    overall_passed: false
+    overall_score: 50.0
+    checks:
+      color_presence:
+        passed: false
+        score: 50.0
+        message: 'Brand color #EB6440 not prominently featured'
+        details:
+          brand_color: '#EB6440'
+  variants:
+  - aspect_ratio: square
+    file_path: campaign\AcmeShampoo\output\product-002\square\campaign_post.png
+  - aspect_ratio: story
+    file_path: campaign\AcmeShampoo\output\product-002\story\campaign_post.png
+  - aspect_ratio: landscape
+    file_path: campaign\AcmeShampoo\output\product-002\landscape\campaign_post.png
+statistics:
+  total_products: 2
+  total_assets: 6
+  assets_generated: 3
+  assets_reused: 3
+  compliance_passed: 0
+  compliance_total: 2
